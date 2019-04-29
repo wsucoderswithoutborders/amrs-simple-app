@@ -16,7 +16,14 @@
     text-align: center;
     font-size: 1.5em;
   }
-  
-  .spacer {
+
+.container .mat-drawer .mat-form-field {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.spacer {
     flex: 1 1 auto;
   }

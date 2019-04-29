@@ -13,6 +13,18 @@
       <br>
       <br>
       <button color="accent" mat-button routerLink="/patients-program-enrollment" (click)="drawer.toggle()">Patients Program Enrollment</button>
+      <br>
+      <br>
+      <mat-form-field>
+        <mat-label>Login</mat-label>
+        <mat-select value="Links">
+          <mat-option routerLink="/dropdown" (click)="drawer.toggle()">Link 1</mat-option>
+          <mat-option routerLink="/dropdown" (click)="drawer.toggle()">Link 2</mat-option>
+          <mat-option routerLink="/dropdown" (click)="drawer.toggle()">Link 3</mat-option>
+        </mat-select>
+     </mat-form-field>
+
+
   </mat-drawer>
   <div class="sidenav-content">
       <mat-toolbar color="accent">

@@ -4,7 +4,7 @@ import { PatientsProgramEnrollmentComponent } from './patients-program-enrollmen
 
 const routes: Routes = [
   {
-    path:'',
+    path: '',
     component: PatientsProgramEnrollmentComponent
   }
 ];

@@ -4,7 +4,7 @@ import { ClinicFlowComponent } from './clinic-flow/clinic-flow.component';
 
 const routes: Routes = [
   {
-    path:'',
+    path: '',
     component: ClinicFlowComponent
   }
 ];

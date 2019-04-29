@@ -4,7 +4,7 @@ import { PatientSearchComponent } from './patient-search.component';
 
 const routes: Routes = [
   {
-    path:'',
+    path: '',
     component: PatientSearchComponent
   }
 ];

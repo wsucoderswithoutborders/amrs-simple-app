@@ -11,6 +11,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LeftNavBarComponent } from './left-nav-bar/left-nav-bar.component';
+import {MatFormFieldModule, MatOptionModule, MatSelectModule} from "@angular/material";
 
 
 @NgModule({
@@ -26,7 +27,10 @@ import { LeftNavBarComponent } from './left-nav-bar/left-nav-bar.component';
     MatButtonModule,
     MatIconModule,
     MatSidenavModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatFormFieldModule,
+    MatOptionModule,
+    MatSelectModule
 
   ],
   providers: [],
