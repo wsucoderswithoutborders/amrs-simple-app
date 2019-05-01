@@ -17,7 +17,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { LeftNavBarComponent } from './left-nav-bar/left-nav-bar.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { ReactiveFormsModule} from '@angular/forms';
-import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material';
 
@@ -25,20 +24,14 @@ import {MatNativeDateModule} from '@angular/material';
 @NgModule({
   declarations: [
     AppComponent,
-    LeftNavBarComponent
+    LeftNavBarComponent,
+    TabsComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
-    MatToolbarModule,
-    BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
     MatSidenavModule,
-    MatToolbarModule,
-    TabsComponent
-],
-  imports: [
     BrowserModule,
     FormsModule,
     MatTabsModule,
